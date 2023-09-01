@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-31T16:29:40 IST" name="Suite" finished-at="2023-08-31T16:29:40 IST" duration-ms="292">
+    <groups>
+      <group name="regression">
+        <method signature="Groups1.test3()[pri:0, instance:Groups_g.Groups1@163d04ff]" name="test3" class="Groups_g.Groups1"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="Groups1.test1()[pri:0, instance:Groups_g.Groups1@163d04ff]" name="test1" class="Groups_g.Groups1"/>
+      </group> <!-- smoke -->
+      <group name="release1">
+        <method signature="Groups1.test1()[pri:0, instance:Groups_g.Groups1@163d04ff]" name="test1" class="Groups_g.Groups1"/>
+        <method signature="Groups1.test3()[pri:0, instance:Groups_g.Groups1@163d04ff]" name="test3" class="Groups_g.Groups1"/>
+      </group> <!-- release1 -->
+    </groups>
+    <test started-at="2023-08-31T16:29:40 IST" name="Test" finished-at="2023-08-31T16:29:40 IST" duration-ms="292">
+      <class name="Groups_g.Groups1">
+        <test-method signature="test1()[pri:0, instance:Groups_g.Groups1@163d04ff]" started-at="2023-08-31T16:29:40 IST" name="test1" finished-at="2023-08-31T16:29:40 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test3()[pri:0, instance:Groups_g.Groups1@163d04ff]" started-at="2023-08-31T16:29:40 IST" name="test3" finished-at="2023-08-31T16:29:40 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- Groups_g.Groups1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
