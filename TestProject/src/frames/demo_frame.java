@@ -13,12 +13,12 @@ public class demo_frame {
 
 			System.setProperty("webdriver.chrome.driver", "./software/chromedriver.exe");
 			WebDriver driver=new ChromeDriver();
-	     Thread.sleep(2000);
+	   //  Thread.sleep(2000);
 	     driver.get("https://demoqa.com/frames");
 	    
 	     WebElement frames = driver.findElement(By.tagName("iframes"));
 		  WebDriver m = driver.switchTo().frame(1);
-		  Thread.sleep(1000);
+		//  Thread.sleep(1000);
 		  String t = driver.findElement(By.id("sampleHeading")).getText();
 		  System.out.println(t);
 			 
