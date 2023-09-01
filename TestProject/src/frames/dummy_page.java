@@ -16,7 +16,7 @@ public class dummy_page {
      driver.findElement(By.id("a1")).sendKeys("arunkumar");
 		
 		  WebElement frame = driver.findElement(By.tagName("iframe"));
-		  driver.switchTo().frame(0); Thread.sleep(1000);
+		  driver.switchTo().frame(0); Thread.sleep(2000);
 		  driver.findElement(By.id("p1")).sendKeys("12365");
 		  
 		 
