@@ -19,6 +19,7 @@ public class Groups1 {
 	public void test3()
 	{
 		System.out.println("draft");
+		//thread.slee();
 	}
 
 }
